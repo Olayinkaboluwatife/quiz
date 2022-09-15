@@ -44,16 +44,18 @@ h1 {
 .coin {
   display: flex;
   justify-content: center;
+  width: 100%;
+  height: 100%;
 }
 
 .barcode {
   align-items: center;
   background-color: white;
   border-radius: 2rem;
-  width: 50%;
-  height: 0%;
   margin: 0;
   padding: 2rem;
+  width: 30%;
+  height: auto;
 }
 
 img {
