@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  font-family: "Courier New", Courier, monospace;
+  background-color: rgb(173, 90, 134);
+}
+
+.quiz {
+  margin: 2rem;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  border-radius: 2rem;
+  background-color: #645959;
+  overflow: hidden;
+  padding: 0.75rem 1.125rem;
+  text-align: center;
+  font-size: 2rem;
+}
+
+li {
+  display: inline;
+  text-decoration: none;
+  padding: 0.875rem 1.333rem;
+  border-right: 1px solid red;
+}
+
+a {
+  color: aliceblue;
+}
+
+.active {
+  background-color: #04aa6d;
+}
+
+li a:hover:not(.active) {
+  background-color: red;
+}
+
+h1 {
+  text-align: center;
+}
+
+.barcode {
+  align-items: center;
+  background-color: white;
+  border-radius: 2rem;
+  width: 60%;
+  height: 60%;
+  margin: 0;
+}
+
+img {
+  width: 300px;
+  height: 200px;
+  margin: 0;
+}
